@@ -6,26 +6,23 @@ Copy the template, paste it to your GitHub README and edit! -->
 
 # Project Title
 
-Final project for the Building AI course
+Final project for the Building AI course, electric motor maintenance 
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
+This is a system that predict the faulty part of a brushless motor before it actually becomes faulty. it uses data from the motor such as time used, current, voltage, temperature, vibration, etc.
 
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
-
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
+* it solves the problem of motor being faulty and causing accidents or expensive repairs
+* it solves the problem of motor life since it predicts the faulty component such that the engineers can replace that part before it causes other problems and bigger repairs.
+* the motivation for this project is my personal field of study, I study in engineering and we use motors all the time. And they fail and break all them time, therefore a system to handle the maintenance of the motors is extremely helpful for a complex system.
 
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+This system can be used in various situation. it can be used in any machines containing a motor. engineers and the users of the machines are the main target audience. the systems reads data from sensors in the motor and predicts a trend. this trend is then used to predict when and what part of the motor is going to break before it happens.
 
 Images will make your README look nice!
 Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
